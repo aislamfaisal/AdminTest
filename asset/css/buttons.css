@@ -1,0 +1,83 @@
+body{
+    background-color: #efefef;
+}
+.block{
+    padding: 10px;
+    background-color: #fff;
+}
+.btn{
+    border-radius: 0;
+    transition: all 400ms ease-in-out;
+    margin: 8px;
+}
+.btn:active, .btn:focus{
+    outline: none !important;
+}
+.btn-rounded{
+    border-radius: 5em;
+}
+.btn-white{
+    background-color: transparent;
+    border-color: #e4eaec;
+}
+.btn-white:active, .btn-white:hover, .btn-white:focus{
+    background-color: #e4eaec;
+}
+.btn-outline-white{
+    background-color: transparent;
+    border-color: #e4eaec;
+}
+.btn-outline-white:active, .btn-outline-white:hover, .btn-outline-white:focus{
+    background-color: transparent;
+}
+.btn-dark{
+    background-color: #111;
+    border-color: #111;
+    color: #fff;
+}
+.btn-dark:active, .btn-dark:hover, .btn-dark:focus{
+    background-color: #101010;
+}
+.btn-outline-dark{
+    background-color: transparent;
+    border-color: #111;
+    color: #111;
+}
+.btn-outline-dark:active, .btn-outline-dark:hover, .btn-outline-dark:focus{
+    background-color: #101010;
+    color: #fff;
+}
+.btn-label {
+    background: rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    padding: 9px 15px;
+    margin: -9px -17px;
+    margin-right: 12px;
+}
+.btn-label-right{
+    margin-left: 12px;
+    margin-right: -17px;
+}
+.btn-rounded .btn-label{
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+.btn-rounded .btn-label-right{
+    border-radius: 0;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+.counter {
+    position: absolute;
+    margin-top: -15px;
+    background-color: #FF0000;
+    color: #fff;
+    padding: 1px 7px;
+    font-size: 11px;
+    z-index: 2;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    -ms-border-radius: 10em;
+    -o-border-radius: 10em;
+    border-radius: 10em;
+}
