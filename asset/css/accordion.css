@@ -1,0 +1,9 @@
+.card{
+    border-radius: 0;
+}
+.continuous-collapse .card{
+    margin-bottom: 0;
+}
+.continuous-collapse .card-header{
+    border: 0;
+}
