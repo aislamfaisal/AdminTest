@@ -1,0 +1,47 @@
+.icon-list{
+    display: block;
+}
+.icon-list i {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    border: 1px solid #e8e8e8;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 5px;
+    color: rgba(43, 61, 81, 0.7);
+    border-radius: 3px;
+    display: inline-block;
+    transition: all 0.2s;
+}
+.icon-list div{
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 1.5;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.icon{
+    margin-right: 10px;
+    margin-bottom: 35px;
+}
+.icon:last-child{
+    margin-right: 0;
+}
+.popover{
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: #00f;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+}
+.popover-content{
+    padding: 5px 8px;
+}
+.popover.bs-tether-element-attached-top::after, .popover.popover-bottom::after{
+    border-bottom-color: #00f;
+}

@@ -10,3 +10,9 @@ $(function() {
         }
     });
 });
+new Clipboard('.copy');
+$('.copy').popover().click(function () {
+    setTimeout(function () {
+        $('.copy').popover('hide');
+    }, 2000);
+});
