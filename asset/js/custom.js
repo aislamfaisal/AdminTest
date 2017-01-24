@@ -16,3 +16,4 @@ $('.copy').popover().click(function () {
         $('.copy').popover('hide');
     }, 2000);
 });
+$(".alert").alert()
