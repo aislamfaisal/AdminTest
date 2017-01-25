@@ -20,6 +20,26 @@ $(document).ready(function() {
     });
 
     $('#calendar').fullCalendar({
+        events: [
+            {
+                title: 'My Event',
+                start: new Date($.now() + 158000000),
+                className: 'bg-success'
+            }, {
+                title: 'Buy a Theme',
+                start: new Date($.now() + 338000000),
+                className: 'bg-primary'
+            }, {
+                title: 'Buy a Theme',
+                start: new Date($.now() + 558000000),
+                className: 'bg-warning'
+            }, {
+                title: 'Buy a Theme',
+                start: new Date($.now() + 755000000),
+                className: 'bg-danger'
+            }
+            // more events here
+        ],
         header: {
             left: 'prev,next today',
             center: 'title',
@@ -28,6 +48,7 @@ $(document).ready(function() {
         editable: true,
         droppable: true, // this allows things to be dropped onto the calendar
         selectable: true,
+        eventLimit: true,
         dragRevertDuration: 0,
         drop: function() {
             // is the "remove after drop" checkbox checked?
