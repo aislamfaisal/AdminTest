@@ -25,8 +25,8 @@ $(document).ready(function() {
             center: 'title',
             right: 'month,agendaWeek,agendaDay'
         },
-        droppable: true,
         editable: true,
+        droppable: true, // this allows things to be dropped onto the calendar
         selectable: true,
         dragRevertDuration: 0,
         drop: function() {
@@ -61,6 +61,25 @@ $(document).ready(function() {
             $('#createEventModal').modal('show');
         }
     });
+
+    $('#submitButton').on('click', function(e){
+        // We don't want this to act as a link so cancel the link action
+        e.preventDefault();
+        doSubmit();
+    });
+
+    function doSubmit(){
+        $("#createEventModal").modal('hide');
+
+        $("#calendar").fullCalendar('renderEvent',
+            {
+                title: $('#patientName').val(),
+                start: new Date($('#apptStartTime').val()),
+                end: new Date($('#apptEndTime').val()),
+                allDay: ($('#apptAllDay').val() == "true"),
+            },
+            true);
+    }
     var isEventOverDiv = function(x, y) {
 
         var external_events = $( '#external-events' );
@@ -75,29 +94,5 @@ $(document).ready(function() {
             && y <= offset .bottom) { return true; }
         return false;
 
-    }
-
-    $('#submitButton').on('click', function(e){
-        // We don't want this to act as a link so cancel the link action
-        e.preventDefault();
-
-        doSubmit();
-    });
-
-    function doSubmit(){
-        $("#createEventModal").modal('hide');
-        console.log($('#apptStartTime').val());
-        console.log($('#apptEndTime').val());
-        console.log($('#apptAllDay').val());
-        alert("form submitted");
-
-        $("#calendar").fullCalendar('renderEvent',
-            {
-                title: $('#patientName').val(),
-                start: new Date($('#apptStartTime').val()),
-                end: new Date($('#apptEndTime').val()),
-                allDay: ($('#apptAllDay').val() == "true"),
-            },
-            true);
     }
 });
