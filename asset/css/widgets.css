@@ -1,0 +1,26 @@
+body{
+    background-color: #F3F3F3;
+}
+.widget{
+    position: relative;
+    display: block;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.06);
+}
+.widget-block{
+    display: block;
+    padding: 1rem;
+}
+.widget-body{
+    padding: 0;
+}
+.widget-media{
+    display: inline-block;
+}
+.widget-media .fa{
+    font-size: 30px;
+    padding: 12px 15px;
+}
+.widget-text{
+    display: inline-block;
+}
