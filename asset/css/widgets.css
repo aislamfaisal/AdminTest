@@ -7,20 +7,15 @@ body{
     background-color: #fff;
     border: 1px solid rgba(0,0,0,.06);
 }
-.widget-block{
-    display: block;
-    padding: 1rem;
-}
-.widget-body{
+
+.widget-content{
     padding: 0;
+    overflow: hidden;
 }
-.widget-media{
-    display: inline-block;
-}
-.widget-media .fa{
+.widget-content .fa{
     font-size: 30px;
     padding: 12px 15px;
 }
 .widget-text{
-    display: inline-block;
+
 }
