@@ -1,682 +1,782 @@
+/* Display */
+
+.block{
+    display: block !important;
+}
+.inline{
+    display: inline !important;
+}
+.inline-block{
+    display: inline-block !important;
+}
+
+
+
+/* Font Size */
+
+.font-10{
+    font-size: 10px !important;
+}
+.font-12{
+    font-size: 12px !important;
+}
+.font-14{
+    font-size: 14px !important;
+}
+.font-16{
+    font-size: 16px !important;
+}
+.font-18{
+    font-size: 18px !important;
+}
+.font-20{
+    font-size: 20px !important;
+}
+.font-22{
+    font-size: 22px !important;
+}
+.font-24{
+    font-size: 24px !important;
+}
+.font-26{
+    font-size: 26px !important;
+}
+.font-28{
+    font-size: 28px !important;
+}
+.font-30{
+    font-size: 30px !important;
+}
+.font-32{
+    font-size: 32px !important;
+}
+.font-34{
+    font-size: 34px !important;
+}
+.font-36{
+    font-size: 36px !important;
+}
+.font-38{
+    font-size: 38px !important;
+}
+.font-40{
+    font-size: 40px !important;
+}
+.font-42{
+    font-size: 42px !important;
+}
+.font-44{
+    font-size: 44px !important;
+}
+.font-46{
+    font-size: 46px !important;
+}
+.font-48{
+    font-size: 48px !important;
+}
+.font-50{
+    font-size: 50px !important;
+}
+
+/* Text Color */
+
+.white{
+    color: #fff !important;
+}
+.dark{
+    color: #000 !important;
+}
+.primary{
+    color: #00f !important;
+}
+.success{
+    color: #2ECC71 !important;
+}
+.warning{
+    color: #F39C12 !important;
+}
+.danger{
+    color: #E74C3C !important;
+}
+.red{
+    color: #C91F37 !important;
+}
+.green{
+    color: #4CAF50 !important;
+}
+.blue{
+    color: #22A7F0 !important;
+}
+.yellow{
+    color: #FFB61E !important;
+}
+.orange{
+    color: #FF4A32 !important;
+}
+.pink{
+    color: #E91E63 !important;
+}
+.purple{
+    color: #875F9A !important;
+}
+.cyan{
+    color: #00BCD4 !important;
+}
+.teal{
+    color: #009688 !important;
+}
+
+
 /* Margin */
 
 .margin-0{
-    margin: 0;
+    margin: 0 !important;
 }
 .margin-10{
-    margin: 10px;
+    margin: 10px !important;
 }
 .margin-top-10{
-    margin-top: 10px;
+    margin-top: 10px !important;
 }
 .margin-right-10{
-    margin-right: 10px;
+    margin-right: 10px !important;
 }
 .margin-bottom-10{
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
 }
 .margin-left-10{
-    margin-left: 10px;
+    margin-left: 10px !important;
 }
 .margin-15{
-    margin: 15px;
+    margin: 15px !important;
 }
 .margin-top-15{
-    margin-top: 15px;
+    margin-top: 15px !important;
 }
 .margin-right-15{
-    margin-right: 15px;
+    margin-right: 15px !important;
 }
 .margin-bottom-15{
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
 }
 .margin-left-15{
-    margin-left: 15px;
+    margin-left: 15px !important;
 }
 .margin-20{
-    margin: 20px;
+    margin: 20px !important;
 }
 .margin-top-20{
-    margin-top: 20px;
+    margin-top: 20px !important;
 }
 .margin-right-20{
-    margin-right: 20px;
+    margin-right: 20px !important;
 }
 .margin-bottom-20{
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
 }
 .margin-left-20{
-    margin-left: 20px;
+    margin-left: 20px !important;
 }
 .margin-25{
-    margin: 25px;
+    margin: 25px !important;
 }
 .margin-top-25{
-    margin-top: 25px;
+    margin-top: 25px !important;
 }
 .margin-right-25{
-    margin-right: 25px;
+    margin-right: 25px !important;
 }
 .margin-bottom-25{
-    margin-bottom: 25px;
+    margin-bottom: 25px !important;
 }
 .margin-left-25{
-    margin-left: 25px;
+    margin-left: 25px !important;
 }
 .margin-30{
-    margin: 30px;
+    margin: 30px !important;
 }
 .margin-top-30{
-    margin-top: 30px;
+    margin-top: 30px !important;
 }
 .margin-right-30{
-    margin-right: 30px;
+    margin-right: 30px !important;
 }
 .margin-bottom-30{
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
 }
 .margin-left-30{
-    margin-left: 30px;
+    margin-left: 30px !important;
 }
 .margin-35{
-    margin: 35px;
+    margin: 35px !important;
 }
 .margin-top-35{
-    margin-top: 35px;
+    margin-top: 35px !important;
 }
 .margin-right-35{
-    margin-right: 35px;
+    margin-right: 35px !important;
 }
 .margin-bottom-35{
-    margin-bottom: 35px;
+    margin-bottom: 35px !important;
 }
 .margin-left-35{
-    margin-left: 35px;
+    margin-left: 35px !important;
 }
 .margin-40{
-    margin: 40px;
+    margin: 40px !important;
 }
 .margin-top-40{
-    margin-top: 40px;
+    margin-top: 40px !important;
 }
 .margin-right-40{
-    margin-right: 40px;
+    margin-right: 40px !important;
 }
 .margin-bottom-40{
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
 }
 .margin-left-40{
-    margin-left: 40px;
+    margin-left: 40px !important;
 }
 .margin-45{
-    margin: 45px;
+    margin: 45px !important;
 }
 .margin-top-45{
-    margin-top: 45px;
+    margin-top: 45px !important;
 }
 .margin-right-45{
-    margin-right: 45px;
+    margin-right: 45px !important;
 }
 .margin-bottom-45{
-    margin-bottom: 45px;
+    margin-bottom: 45px !important;
 }
 .margin-left-45{
-    margin-left: 45px;
+    margin-left: 45px !important;
 }
 .margin-50{
-    margin: 50px;
+    margin: 50px !important;
 }
 .margin-top-50{
-    margin-top: 50px;
+    margin-top: 50px !important;
 }
 .margin-right-50{
-    margin-right: 50px;
+    margin-right: 50px !important;
 }
 .margin-bottom-50{
-    margin-bottom: 50px;
+    margin-bottom: 50px !important;
 }
 .margin-left-50{
-    margin-left: 50px;
+    margin-left: 50px !important;
 }
 
 /* padding */
 
 .padding-0{
-    padding: 0;
+    padding: 0 !important;
 }
 .padding-10{
-    padding: 10px;
+    padding: 10px !important;
 }
 .padding-top-10{
-    padding-top: 10px;
+    padding-top: 10px !important;
 }
 .padding-right-10{
-    padding-right: 10px;
+    padding-right: 10px !important;
 }
 .padding-bottom-10{
-    padding-bottom: 10px;
+    padding-bottom: 10px !important;
 }
 .padding-left-10{
-    padding-left: 10px;
+    padding-left: 10px !important;
 }
 .padding-15{
-    padding: 15px;
+    padding: 15px !important;
 }
 .padding-top-15{
-    padding-top: 15px;
+    padding-top: 15px !important;
 }
 .padding-right-15{
-    padding-right: 15px;
+    padding-right: 15px !important;
 }
 .padding-bottom-15{
-    padding-bottom: 15px;
+    padding-bottom: 15px !important;
 }
 .padding-left-15{
-    padding-left: 15px;
+    padding-left: 15px !important;
 }
 .padding-20{
-    padding: 20px;
+    padding: 20px !important;
 }
 .padding-top-20{
-    padding-top: 20px;
+    padding-top: 20px !important;
 }
 .padding-right-20{
-    padding-right: 20px;
+    padding-right: 20px !important;
 }
 .padding-bottom-20{
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
 }
 .padding-left-20{
-    padding-left: 20px;
+    padding-left: 20px !important;
 }
 .padding-25{
-    padding: 25px;
+    padding: 25px !important;
 }
 .padding-top-25{
-    padding-top: 25px;
+    padding-top: 25px !important;
 }
 .padding-right-25{
-    padding-right: 25px;
+    padding-right: 25px !important;
 }
 .padding-bottom-25{
-    padding-bottom: 25px;
+    padding-bottom: 25px !important;
 }
 .padding-left-25{
-    padding-left: 25px;
+    padding-left: 25px !important;
 }
 .padding-30{
-    padding: 30px;
+    padding: 30px !important;
 }
 .padding-top-30{
-    padding-top: 30px;
+    padding-top: 30px !important;
 }
 .padding-right-30{
-    padding-right: 30px;
+    padding-right: 30px !important;
 }
 .padding-bottom-30{
-    padding-bottom: 30px;
+    padding-bottom: 30px !important;
 }
 .padding-left-30{
-    padding-left: 30px;
+    padding-left: 30px !important;
 }
 .padding-35{
-    padding: 35px;
+    padding: 35px !important;
 }
 .padding-top-35{
-    padding-top: 35px;
+    padding-top: 35px !important;
 }
 .padding-right-35{
-    padding-right: 35px;
+    padding-right: 35px !important;
 }
 .padding-bottom-35{
-    padding-bottom: 35px;
+    padding-bottom: 35px !important;
 }
 .padding-left-35{
-    padding-left: 35px;
+    padding-left: 35px !important;
 }
 .padding-40{
-    padding: 40px;
+    padding: 40px !important;
 }
 .padding-top-40{
-    padding-top: 40px;
+    padding-top: 40px !important;
 }
 .padding-right-40{
-    padding-right: 40px;
+    padding-right: 40px !important;
 }
 .padding-bottom-40{
-    padding-bottom: 40px;
+    padding-bottom: 40px !important;
 }
 .padding-left-40{
-    padding-left: 40px;
+    padding-left: 40px !important;
 }
 .padding-45{
-    padding: 45px;
+    padding: 45px !important;
 }
 .padding-top-45{
-    padding-top: 45px;
+    padding-top: 45px !important;
 }
 .padding-right-45{
-    padding-right: 45px;
+    padding-right: 45px !important;
 }
 .padding-bottom-45{
-    padding-bottom: 45px;
+    padding-bottom: 45px !important;
 }
 .padding-left-45{
-    padding-left: 45px;
+    padding-left: 45px !important;
 }
 .padding-50{
-    padding: 50px;
+    padding: 50px !important;
 }
 .padding-top-50{
-    padding-top: 50px;
+    padding-top: 50px !important;
 }
 .padding-right-50{
-    padding-right: 50px;
+    padding-right: 50px !important;
 }
 .padding-bottom-50{
-    padding-bottom: 50px;
+    padding-bottom: 50px !important;
 }
 .padding-left-50{
-    padding-left: 50px;
+    padding-left: 50px !important;
 }
 
 /* Background */
 
 .bg-transparent{
-    background-color: transparent !important;
+    background-color: transparent !important !important;
 }
 
 .bg-primary-100{
-    background-color: rgba(0, 0, 255, 0.1);
+    background-color: rgba(0, 0, 255, 0.1) !important;
 }
 .bg-primary-200{
-    background-color: rgba(0, 0, 255, 0.2);
+    background-color: rgba(0, 0, 255, 0.2) !important;
 }
 .bg-primary-300{
-    background-color: rgba(0, 0, 255, 0.3);
+    background-color: rgba(0, 0, 255, 0.3) !important;
 }
 .bg-primary-400{
-    background-color: rgba(0, 0, 255, 0.4);
+    background-color: rgba(0, 0, 255, 0.4) !important;
 }
 .bg-primary-500{
-    background-color: rgba(0, 0, 255, 0.5);
+    background-color: rgba(0, 0, 255, 0.5) !important;
 }
 .bg-primary-600{
-    background-color: rgba(0, 0, 255, 0.6);
+    background-color: rgba(0, 0, 255, 0.6) !important;
 }
 .bg-primary-800{
-    background-color: rgba(0, 0, 255, 0.8);
+    background-color: rgba(0, 0, 255, 0.8) !important;
 }
 .bg-primary-900{
-    background-color: rgba(0, 0, 255, 0.9);
+    background-color: rgba(0, 0, 255, 0.9) !important;
 }
 .bg-primary{
-    background-color: rgba(0, 0, 255, 1);
+    background-color: rgba(0, 0, 255, 1) !important;
 }
 
 .bg-success-100{
-    background-color: rgba(46, 204, 113, 0.1);
+    background-color: rgba(46, 204, 113, 0.1) !important;
 }
 .bg-success-200{
-    background-color: rgba(46, 204, 113, 0.2);
+    background-color: rgba(46, 204, 113, 0.2) !important;
 }
 .bg-success-300{
-    background-color: rgba(46, 204, 113, 0.3);
+    background-color: rgba(46, 204, 113, 0.3) !important;
 }
 .bg-success-400{
-    background-color: rgba(46, 204, 113, 0.4);
+    background-color: rgba(46, 204, 113, 0.4) !important;
 }
 .bg-success-500{
-    background-color: rgba(46, 204, 113, 0.5);
+    background-color: rgba(46, 204, 113, 0.5) !important;
 }
 .bg-success-600{
-    background-color: rgba(46, 204, 113, 0.6);
+    background-color: rgba(46, 204, 113, 0.6) !important;
 }
 .bg-success-800{
-    background-color: rgba(46, 204, 113, 0.8);
+    background-color: rgba(46, 204, 113, 0.8) !important;
 }
 .bg-success-900{
-    background-color: rgba(46, 204, 113, 0.9);
+    background-color: rgba(46, 204, 113, 0.9) !important;
 }
 .bg-success{
-    background-color: rgba(46, 204, 113, 1);
+    background-color: rgba(46, 204, 113, 1) !important;
 }
 
 
 .bg-warning-100{
-    background-color: rgba(243, 156, 18, 0.1);
+    background-color: rgba(243, 156, 18, 0.1) !important;
 }
 .bg-warning-200{
-    background-color: rgba(243, 156, 18, 0.2);
+    background-color: rgba(243, 156, 18, 0.2) !important;
 }
 .bg-warning-300{
-    background-color: rgba(243, 156, 18, 0.3);
+    background-color: rgba(243, 156, 18, 0.3) !important;
 }
 .bg-warning-400{
-    background-color: rgba(243, 156, 18, 0.4);
+    background-color: rgba(243, 156, 18, 0.4) !important;
 }
 .bg-warning-500{
-    background-color: rgba(243, 156, 18, 0.5);
+    background-color: rgba(243, 156, 18, 0.5) !important;
 }
 .bg-warning-600{
-    background-color: rgba(243, 156, 18, 0.6);
+    background-color: rgba(243, 156, 18, 0.6) !important;
 }
 .bg-warning-800{
-    background-color: rgba(243, 156, 18, 0.8);
+    background-color: rgba(243, 156, 18, 0.8) !important;
 }
 .bg-warning-900{
-    background-color: rgba(243, 156, 18, 0.9);
+    background-color: rgba(243, 156, 18, 0.9) !important;
 }
 .bg-warning{
-    background-color: rgba(243, 156, 18, 1);
+    background-color: rgba(243, 156, 18, 1) !important;
 }
 
 .bg-danger-100{
-    background-color: rgba(231, 76, 60, 0.1);
+    background-color: rgba(231, 76, 60, 0.1) !important;
 }
 .bg-danger-200{
-    background-color: rgba(231, 76, 60, 0.2);
+    background-color: rgba(231, 76, 60, 0.2) !important;
 }
 .bg-danger-300{
-    background-color: rgba(231, 76, 60, 0.3);
+    background-color: rgba(231, 76, 60, 0.3) !important;
 }
 .bg-danger-400{
-    background-color: rgba(231, 76, 60, 0.4);
+    background-color: rgba(231, 76, 60, 0.4) !important;
 }
 .bg-danger-500{
-    background-color: rgba(231, 76, 60, 0.5);
+    background-color: rgba(231, 76, 60, 0.5) !important;
 }
 .bg-danger-600{
-    background-color: rgba(231, 76, 60, 0.6);
+    background-color: rgba(231, 76, 60, 0.6) !important;
 }
 .bg-danger-800{
-    background-color: rgba(231, 76, 60, 0.8);
+    background-color: rgba(231, 76, 60, 0.8) !important;
 }
 .bg-danger-900{
-    background-color: rgba(231, 76, 60, 0.9);
+    background-color: rgba(231, 76, 60, 0.9) !important;
 }
 .bg-danger{
-    background-color: rgba(231, 76, 60, 1);
+    background-color: rgba(231, 76, 60, 1) !important;
 }
-
-.bg-danger-100{
-    background-color: rgba(231, 76, 60, 0.1);
-}
-.bg-danger-200{
-    background-color: rgba(231, 76, 60, 0.2);
-}
-.bg-danger-300{
-    background-color: rgba(231, 76, 60, 0.3);
-}
-.bg-danger-400{
-    background-color: rgba(231, 76, 60, 0.4);
-}
-.bg-danger-500{
-    background-color: rgba(231, 76, 60, 0.5);
-}
-.bg-danger-600{
-    background-color: rgba(231, 76, 60, 0.6);
-}
-.bg-danger-800{
-    background-color: rgba(231, 76, 60, 0.8);
-}
-.bg-danger-900{
-    background-color: rgba(231, 76, 60, 0.9);
-}
-.bg-danger{
-    background-color: rgba(231, 76, 60, 1);
-}
-
 
 .bg-blue-100{
-    background-color: rgba(34, 167, 240, 0.1);
+    background-color: rgba(34, 167, 240, 0.1) !important;
 }
 .bg-blue-200{
-    background-color: rgba(34, 167, 240, 0.2);
+    background-color: rgba(34, 167, 240, 0.2) !important;
 }
 .bg-blue-300{
-    background-color: rgba(34, 167, 240, 0.3);
+    background-color: rgba(34, 167, 240, 0.3) !important;
 }
 .bg-blue-400{
-    background-color: rgba(34, 167, 240, 0.4);
+    background-color: rgba(34, 167, 240, 0.4) !important;
 }
 .bg-blue-500{
-    background-color: rgba(34, 167, 240, 0.5);
+    background-color: rgba(34, 167, 240, 0.5) !important;
 }
 .bg-blue-600{
-    background-color: rgba(34, 167, 240, 0.6);
+    background-color: rgba(34, 167, 240, 0.6) !important;
 }
 .bg-blue-800{
-    background-color: rgba(34, 167, 240, 0.8);
+    background-color: rgba(34, 167, 240, 0.8) !important;
 }
 .bg-blue-900{
-    background-color: rgba(34, 167, 240, 0.9);
+    background-color: rgba(34, 167, 240, 0.9) !important;
 }
 .bg-blue{
-    background-color: rgba(34, 167, 240, 1);
+    background-color: rgba(34, 167, 240, 1) !important;
 }
 
 .bg-red-100{
-    background-color: rgba(201, 31, 55, 0.1);
+    background-color: rgba(201, 31, 55, 0.1) !important;
 }
 .bg-red-200{
-    background-color: rgba(201, 31, 55, 0.2);
+    background-color: rgba(201, 31, 55, 0.2) !important;
 }
 .bg-red-300{
-    background-color: rgba(201, 31, 55, 0.3);
+    background-color: rgba(201, 31, 55, 0.3) !important;
 }
 .bg-red-400{
-    background-color: rgba(201, 31, 55, 0.4);
+    background-color: rgba(201, 31, 55, 0.4) !important;
 }
 .bg-red-500{
-    background-color: rgba(201, 31, 55, 0.5);
+    background-color: rgba(201, 31, 55, 0.5) !important;
 }
 .bg-red-600{
-    background-color: rgba(201, 31, 55, 0.6);
+    background-color: rgba(201, 31, 55, 0.6) !important;
 }
 .bg-red-800{
-    background-color: rgba(201, 31, 55, 0.8);
+    background-color: rgba(201, 31, 55, 0.8) !important;
 }
 .bg-red-900{
-    background-color: rgba(201, 31, 55, 0.9);
+    background-color: rgba(201, 31, 55, 0.9) !important;
 }
 .bg-red{
-    background-color: rgba(201, 31, 55, 1);
+    background-color: rgba(201, 31, 55, 1) !important;
 }
 
 .bg-orange-100{
-    background-color: rgba(255, 74, 50, 0.1);
+    background-color: rgba(255, 74, 50, 0.1) !important;
 }
 .bg-orange-200{
-    background-color: rgba(255, 74, 50, 0.2);
+    background-color: rgba(255, 74, 50, 0.2) !important;
 }
 .bg-orange-300{
-    background-color: rgba(255, 74, 50, 0.3);
+    background-color: rgba(255, 74, 50, 0.3) !important;
 }
 .bg-orange-400{
-    background-color: rgba(255, 74, 50, 0.4);
+    background-color: rgba(255, 74, 50, 0.4) !important;
 }
 .bg-orange-500{
-    background-color: rgba(255, 74, 50, 0.5);
+    background-color: rgba(255, 74, 50, 0.5) !important;
 }
 .bg-orange-600{
-    background-color: rgba(255, 74, 50, 0.6);
+    background-color: rgba(255, 74, 50, 0.6) !important;
 }
 .bg-orange-800{
-    background-color: rgba(255, 74, 50, 0.8);
+    background-color: rgba(255, 74, 50, 0.8) !important;
 }
 .bg-orange-900{
-    background-color: rgba(255, 74, 50, 0.9);
+    background-color: rgba(255, 74, 50, 0.9) !important;
 }
 .bg-orange{
-    background-color: rgba(255, 74, 50, 1);
+    background-color: rgba(255, 74, 50, 1) !important;
 }
 
 .bg-pink-100{
-    background-color: rgba(233, 30, 99, 0.1);
+    background-color: rgba(233, 30, 99, 0.1) !important;
 }
 .bg-pink-200{
-    background-color: rgba(233, 30, 99, 0.2);
+    background-color: rgba(233, 30, 99, 0.2) !important;
 }
 .bg-pink-300{
-    background-color: rgba(233, 30, 99, 0.3);
+    background-color: rgba(233, 30, 99, 0.3) !important;
 }
 .bg-pink-400{
-    background-color: rgba(233, 30, 99, 0.4);
+    background-color: rgba(233, 30, 99, 0.4) !important;
 }
 .bg-pink-500{
-    background-color: rgba(233, 30, 99, 0.5);
+    background-color: rgba(233, 30, 99, 0.5) !important;
 }
 .bg-pink-600{
-    background-color: rgba(233, 30, 99, 0.6);
+    background-color: rgba(233, 30, 99, 0.6) !important;
 }
 .bg-pink-800{
-    background-color: rgba(233, 30, 99, 0.8);
+    background-color: rgba(233, 30, 99, 0.8) !important;
 }
 .bg-pink-900{
-    background-color: rgba(233, 30, 99, 0.9);
+    background-color: rgba(233, 30, 99, 0.9) !important;
 }
 .bg-pink{
-    background-color: rgba(233, 30, 99, 1);
+    background-color: rgba(233, 30, 99, 1) !important;
 }
 
 .bg-purple-100{
-    background-color: rgba(135, 95, 154, 0.1);
+    background-color: rgba(135, 95, 154, 0.1) !important;
 }
 .bg-purple-200{
-    background-color: rgba(135, 95, 154, 0.2);
+    background-color: rgba(135, 95, 154, 0.2) !important;
 }
 .bg-purple-300{
-    background-color: rgba(135, 95, 154, 0.3);
+    background-color: rgba(135, 95, 154, 0.3) !important;
 }
 .bg-purple-400{
-    background-color: rgba(135, 95, 154, 0.4);
+    background-color: rgba(135, 95, 154, 0.4) !important;
 }
 .bg-purple-500{
-    background-color: rgba(135, 95, 154, 0.5);
+    background-color: rgba(135, 95, 154, 0.5) !important;
 }
 .bg-purple-600{
-    background-color: rgba(135, 95, 154, 0.6);
+    background-color: rgba(135, 95, 154, 0.6) !important;
 }
 .bg-purple-800{
-    background-color: rgba(135, 95, 154, 0.8);
+    background-color: rgba(135, 95, 154, 0.8) !important;
 }
 .bg-purple-900{
-    background-color: rgba(135, 95, 154, 0.9);
+    background-color: rgba(135, 95, 154, 0.9) !important;
 }
 .bg-purple{
-    background-color: rgba(135, 95, 154, 1);
+    background-color: rgba(135, 95, 154, 1) !important;
 }
 
 .bg-green-100{
-    background-color: rgba(76, 175, 80, 0.1);
+    background-color: rgba(76, 175, 80, 0.1) !important;
 }
 .bg-green-200{
-    background-color: rgba(76, 175, 80, 0.2);
+    background-color: rgba(76, 175, 80, 0.2) !important;
 }
 .bg-green-300{
-    background-color: rgba(76, 175, 80, 0.3);
+    background-color: rgba(76, 175, 80, 0.3) !important;
 }
 .bg-green-400{
-    background-color: rgba(76, 175, 80, 0.4);
+    background-color: rgba(76, 175, 80, 0.4) !important;
 }
 .bg-green-500{
-    background-color: rgba(76, 175, 80, 0.5);
+    background-color: rgba(76, 175, 80, 0.5) !important;
 }
 .bg-green-600{
-    background-color: rgba(76, 175, 80, 0.6);
+    background-color: rgba(76, 175, 80, 0.6) !important;
 }
 .bg-green-800{
-    background-color: rgba(76, 175, 80, 0.8);
+    background-color: rgba(76, 175, 80, 0.8) !important;
 }
 .bg-green-900{
-    background-color: rgba(76, 175, 80, 0.9);
+    background-color: rgba(76, 175, 80, 0.9) !important;
 }
 .bg-green{
-    background-color: rgba(76, 175, 80, 1);
+    background-color: rgba(76, 175, 80, 1) !important;
 }
 
 .bg-yellow-100{
-    background-color: rgba(255, 182, 30, 0.1);
+    background-color: rgba(255, 182, 30, 0.1) !important;
 }
 .bg-yellow-200{
-    background-color: rgba(255, 182, 30, 0.2);
+    background-color: rgba(255, 182, 30, 0.2) !important;
 }
 .bg-yellow-300{
-    background-color: rgba(255, 182, 30, 0.3);
+    background-color: rgba(255, 182, 30, 0.3) !important;
 }
 .bg-yellow-400{
-    background-color: rgba(255, 182, 30, 0.4);
+    background-color: rgba(255, 182, 30, 0.4) !important;
 }
 .bg-yellow-500{
-    background-color: rgba(255, 182, 30, 0.5);
+    background-color: rgba(255, 182, 30, 0.5) !important;
 }
 .bg-yellow-600{
-    background-color: rgba(255, 182, 30, 0.6);
+    background-color: rgba(255, 182, 30, 0.6) !important;
 }
 .bg-yellow-800{
-    background-color: rgba(255, 182, 30, 0.8);
+    background-color: rgba(255, 182, 30, 0.8) !important;
 }
 .bg-yellow-900{
-    background-color: rgba(255, 182, 30, 0.9);
+    background-color: rgba(255, 182, 30, 0.9) !important;
 }
 .bg-yellow{
-    background-color: rgba(255, 182, 30, 1);
+    background-color: rgba(255, 182, 30, 1) !important;
 }
 
 .bg-cyan-100{
-    background-color: rgba(0, 188, 212, 0.1);
+    background-color: rgba(0, 188, 212, 0.1) !important;
 }
 .bg-cyan-200{
-    background-color: rgba(0, 188, 212, 0.2);
+    background-color: rgba(0, 188, 212, 0.2) !important;
 }
 .bg-cyan-300{
-    background-color: rgba(0, 188, 212, 0.3);
+    background-color: rgba(0, 188, 212, 0.3) !important;
 }
 .bg-cyan-400{
-    background-color: rgba(0, 188, 212, 0.4);
+    background-color: rgba(0, 188, 212, 0.4) !important;
 }
 .bg-cyan-500{
-    background-color: rgba(0, 188, 212, 0.5);
+    background-color: rgba(0, 188, 212, 0.5) !important;
 }
 .bg-cyan-600{
-    background-color: rgba(0, 188, 212, 0.6);
+    background-color: rgba(0, 188, 212, 0.6) !important;
 }
 .bg-cyan-800{
-    background-color: rgba(0, 188, 212, 0.8);
+    background-color: rgba(0, 188, 212, 0.8) !important;
 }
 .bg-cyan-900{
-    background-color: rgba(0, 188, 212, 0.9);
+    background-color: rgba(0, 188, 212, 0.9) !important;
 }
 .bg-cyan{
-    background-color: rgba(0, 188, 212, 1);
+    background-color: rgba(0, 188, 212, 1) !important;
 }
 
 .bg-teal-100{
-    background-color: rgba(0, 150, 136, 0.1);
+    background-color: rgba(0, 150, 136, 0.1) !important;
 }
 .bg-teal-200{
-    background-color: rgba(0, 150, 136, 0.2);
+    background-color: rgba(0, 150, 136, 0.2) !important;
 }
 .bg-teal-300{
-    background-color: rgba(0, 150, 136, 0.3);
+    background-color: rgba(0, 150, 136, 0.3) !important;
 }
 .bg-teal-400{
-    background-color: rgba(0, 150, 136, 0.4);
+    background-color: rgba(0, 150, 136, 0.4) !important;
 }
 .bg-teal-500{
-    background-color: rgba(0, 150, 136, 0.5);
+    background-color: rgba(0, 150, 136, 0.5) !important;
 }
 .bg-teal-600{
-    background-color: rgba(0, 150, 136, 0.6);
+    background-color: rgba(0, 150, 136, 0.6) !important;
 }
 .bg-teal-800{
-    background-color: rgba(0, 150, 136, 0.8);
+    background-color: rgba(0, 150, 136, 0.8) !important;
 }
 .bg-teal-900{
-    background-color: rgba(0, 150, 136, 0.9);
+    background-color: rgba(0, 150, 136, 0.9) !important;
 }
 .bg-teal{
-    background-color: rgba(0, 150, 136, 1);
+    background-color: rgba(0, 150, 136, 1) !important;
 }
 
