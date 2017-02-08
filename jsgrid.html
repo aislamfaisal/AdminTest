@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="asset/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="asset/css/widgets.css" type="text/css" rel="stylesheet">
+    <link href="asset/css/helper.css" type="text/css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/cupertino/jquery-ui.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.css" />
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid-theme.min.css" />
+
+
+</head>
+<body>
+<div class="container" style="margin: 25px auto;">
+    <div class="row">
+        <div class="col-lg-12">
+            <h3>Basic Scenario</h3>
+            <div id="basicScenario"></div>
+            <h3>Static Scenario</h3>
+            <div id="staticScenario"></div>
+            <h3>Data Manipulation Scenario</h3>
+            <div id="maipulationScenario"></div>
+            <div id="detailsDialog">
+                <form id="detailsForm">
+                    <div class="details-form-field">
+                        <label for="name">Name:</label>
+                        <input id="name" name="name" type="text" />
+                    </div>
+                    <div class="details-form-field">
+                        <label for="age">Age:</label>
+                        <input id="age" name="age" type="number" />
+                    </div>
+                    <div class="details-form-field">
+                        <label for="address">Address:</label>
+                        <input id="address" name="address" type="text" />
+                    </div>
+                    <div class="details-form-field">
+                        <label for="country">Country:</label>
+                        <select id="country" name="country">
+                            <option value="">(Select)</option>
+                            <option value="1">United States</option>
+                            <option value="2">Canada</option>
+                            <option value="3">United Kingdom</option>
+                            <option value="4">France</option>
+                            <option value="5">Brazil</option>
+                            <option value="6">China</option>
+                            <option value="7">Russia</option>
+                        </select>
+                    </div>
+                    <div class="details-form-field">
+                        <label for="married">Is Married</label>
+                        <input id="married" name="married" type="checkbox" />
+                    </div>
+                    <div class="details-form-field">
+                        <button type="submit" id="save">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="asset/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="asset/js/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.js"></script>
+<script type="text/javascript" src="asset/lib/jsGrid/jsgrid.db.js"></script>
+<script type="text/javascript" src="asset/lib/jsGrid/jquery.validate.min.js"></script>
+<script src="asset/lib/jsGrid/jsgrid.init.js" type="text/javascript"></script>
+<script src="asset/js/custom.js" type="text/javascript"></script>
+</body>
+</html>
