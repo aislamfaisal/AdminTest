@@ -52,7 +52,13 @@ $(function() {
         width: "100%",
         editing: true,
         autoload: true,
+
+        sorting: true,
         paging: true,
+
+        pageSize: 5,
+        pageButtonCount: 3,
+
         deleteConfirm: function(item) {
             return "The client \"" + item.Name + "\" will be removed. Are you sure?";
         },
@@ -137,5 +143,30 @@ $(function() {
 
         $("#detailsDialog").dialog("close");
     };
+
+
+    // Sorting Scenario
+    $("#sortingScenario").jsGrid({
+        width: "100%",
+
+        autoload: true,
+        selecting: false,
+
+        controller: db,
+
+        fields: [
+            { name: "Name", type: "text", width: 150 },
+            { name: "Age", type: "number", width: 50 },
+            { name: "Address", type: "text", width: 200 },
+            { name: "Country", type: "select", items: db.countries, valueField: "Id", textField: "Name" },
+            { name: "Married", type: "checkbox", title: "Is Married" }
+        ]
+    });
+
+
+    $("#sort").click(function() {
+        var field = $("#sortingField").val();
+        $("#jsGrid").jsGrid("sort", field);
+    });
 
 });
